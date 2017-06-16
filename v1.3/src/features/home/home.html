@@ -1,6 +1,23 @@
 <h2 style="text-align:center;" >PhotoEditor SDK for Angular v1.3 Demo</h2>
 <div class="Aligner">
   <div class="Aligner-item">
-    <pesdkdemo></pesdkdemo>
+    <pesdkdemo image={url}></pesdkdemo>
   </div>
+
+</div>
+
+<br/>
+<div class="Aligner">
+  <img class="Aligner-item"
+    style="width:100px;"
+    src="/node_modules/photoeditorsdk/test.png"
+    ng-click="url = '/node_modules/photoeditorsdk/test.png'" />
+  <img class="Aligner-item"
+    style="width:100px;"
+    src="/node_modules/photoeditorsdk/assets/stickers/base/glasses-shutter-green.png"
+    ng-click="url = 'node_modules/photoeditorsdk/assets/stickers/base/glasses-shutter-green.png'" />
+  <img class="Aligner-item"
+    style="width:100px;"
+    src="/node_modules/photoeditorsdk/assets/stickers/base/heart.png"
+    ng-click="url = '/node_modules/photoeditorsdk/assets/stickers/base/heart.png'" />
 </div>
